@@ -1,3 +1,3 @@
 # Hamburg Real State
-Research about the real state industry in Hamburg
+Research about the real estate industry in Hamburg.
 
