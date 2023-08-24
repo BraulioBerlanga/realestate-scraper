@@ -14,4 +14,4 @@ Scraper build with Python and BeautifulSoup. The scraper takes listing attribute
 
 ## Authors
 
-braulioberlanga@gmail.com
+> braulioberlanga@gmail.com
