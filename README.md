@@ -1,57 +1,17 @@
 # Real estate web scraper
 
-Scraper build with Python and BeautifulSoup. The scraper takes listing attributes 
+Scraper build with Python and BeautifulSoup. The scraper takes listing attributes from [immonet.de](https://www.immonet.de/). Store values in a python dictionary and save values in a flat file. Also the code supports a Postgres connection to insert new data.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
+* `app_haus_kaufen` : scrape listing on sales 
+* `app_hause_mieten` : scrape lsiting for rent
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* BeautifulSoup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* requests
+* lxml
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-
-# Hamburg Real State
-Research about the real estate industry in Hamburg.
+braulioberlanga@gmail.com
