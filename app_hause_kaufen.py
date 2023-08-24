@@ -87,8 +87,9 @@ for div in divs:
                 except:
                     pass
             
-            insertquerykaufen(title,price,area,totalarea,rooms,postcode)
+            #insertquerykaufen(title,price,area,totalarea,rooms,postcode)
             json_results = {title:title,price:price,area:area,totalarea:totalarea,rooms:rooms,postcode:postcode}
+            print(json_results)
             Doc_handler_kaufen(json_results)
             
     except:
