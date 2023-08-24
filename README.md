@@ -8,7 +8,7 @@ Scraper build with Python and BeautifulSoup. The scraper takes listing attribute
 * `app_hause_mieten` : scrape lsiting for rent
 
 ### Dependencies
-* BeautifulSoup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* BeautifulSoup > [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * requests
 * lxml
 
